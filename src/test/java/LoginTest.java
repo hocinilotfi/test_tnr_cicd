@@ -6,7 +6,7 @@ public class LoginTest {
 
     @Test
     public void loginAvecCridentialsCorrect(){
-        assertEquals(1, 1);
+        assertEquals(1, 2);
     }
     @Test
     public void loginAvecCridentialsIncorrect(){
