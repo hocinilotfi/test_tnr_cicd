@@ -1,4 +1,7 @@
 pipeline{
+    triggers {
+        upstream 'build-and-deploy-to-integration, '
+    }
     agent{
         docker{
             image 'maven:3.9.11-eclipse-temurin-24'
